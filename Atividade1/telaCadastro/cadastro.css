@@ -1,0 +1,70 @@
+#todoConteudo {
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    position: relative; /* Para garantir que o formulário esteja acima de elementos fixos */
+    z-index: 2; /* Ajuste conforme necessário */
+
+
+}
+
+#conteudo {
+   
+
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.619);
+    height: 150px;
+    width: 350px;
+    margin: auto;
+    border-radius: 2%;
+    margin-left: 35%;
+
+}
+
+.imagem {
+    position: relative; /* ou sticky, dependendo do comportamento desejado */
+    margin-top: 1%; /* Ajuste conforme necessário */
+    left: 285px; /* Ajuste conforme necessário */
+    text-align: center;
+    width: 950px;
+    z-index: 1; /* Valor menor para ficar atrás do formulário */
+    margin: 0; /* Remova margens automáticas ao usar fixed ou sticky */
+}
+
+body {
+    background-image: url('/img/movies-theater.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#caixa {
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.795);
+    margin: auto;
+    margin-left: 35%;
+    margin-top: 14%;
+    width: 350px;
+    border-radius: 2%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#caixa h1 {
+    padding: 3px;
+}
+
+.btn-salvar {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+
+
+.tudao {
+    margin-left: 4%;
+}

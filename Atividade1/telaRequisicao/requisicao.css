@@ -1,0 +1,13 @@
+#caixa {
+    background-color: green;
+    width: 250px;
+    text-align: center;
+    margin: auto;    
+    border-radius: 5%;
+    border-style: double;
+    margin-top: 20%;
+}
+
+body {
+    background-image: url('/Tela-cadastro-requisicaoHttp/img/fundo.gif');
+}

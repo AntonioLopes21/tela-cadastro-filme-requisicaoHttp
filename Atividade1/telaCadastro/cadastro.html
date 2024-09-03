@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Filmes</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <div class="tudao">
+            <header>
+                <div class="container" id="caixa">
+                    <h1>Cadastro de Filmes</h1>
+                </div>
+            </header>
+            <div class="container" id="conteudo">
+                <div class="nome-filme">
+                    <label for="name">Nome do filme</label>
+                    <input type="text" name="nome_do_filme" placeholder="Digite o nome do filme"
+                        onkeyup="receberNomeFilme()">
+
+                    <br><br>
+                    <label for="id">Número do filme</label>
+                    <input type="number" name="id_do_filme" placeholder="Digite o número do filme"
+                        onkeyup="receberIdFilme()">
+
+                    <div class="data">
+                        <br>
+                        <label for="date">Data do filme:</label>
+                        <input type="date" name="data_filme" onkeyup="receberDataFilme()">
+                    </div>
+                    <div class="botao">
+                        <br>
+                        <button class="btn-salvar" type="button" onclick="cadastrarDados()">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+    </div>
+    <footer></footer>
+    <script src="cadastro.js"></script>
+</body>
+
+</html>
