@@ -33,7 +33,7 @@
 }
 
 body {
-    background-image: url('/img/movies-theater.webp');
+    background-image: url('img/movies-theater.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
